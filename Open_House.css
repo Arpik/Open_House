@@ -35,3 +35,25 @@ body{
 a:hover {
     color: #ffffff;
 }
+
+.SiteHead{
+    color: #5bbea9;
+    letter-spacing: 6px;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+.SiteHead h1{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+span.eleventh{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: larger;
+
+}
