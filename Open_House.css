@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.NavBar {
+    background-color: black;
+    height: 45px;
+    margin: 0;
+}
+
+.NavBar ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin:0;
+}
+
+.NavBar li{
+    display: inline-block;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color:           #5bbea9;
+    font-family:     Arial;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-small;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: #ffffff;
+}
