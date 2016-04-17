@@ -57,3 +57,42 @@ span.eleventh{
     font-size: larger;
 
 }
+
+.content{
+    margin: 10px;
+}
+
+.SiteSlide {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: sans-serif;
+    color: #5bbea9;
+}
+
+.SiteSlide img{
+    display: block;
+    margin:auto;
+    padding-top: 90px;
+    width: 960px;
+    height: 400px;
+}
+
+h2{
+    margin-top: -102px;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.SiteSlide span{
+    font-weight: bold;
+}
+
+p{
+    width: auto;
+    margin-top: 28px;
+    margin-left: 119px;
+    margin-right: 38px;
+}
+
