@@ -1,24 +1,24 @@
-body{
+body {
     padding: 0;
-    margin: 0;
+    margin:  0;
 }
 
 .NavBar {
     background-color: black;
-    height: 45px;
-    margin: 0;
+    height:           45px;
+    margin:           0;
 }
 
-.NavBar ul{
+.NavBar ul {
     list-style: none;
     text-align: center;
-    padding: 10px;
-    margin:0;
+    padding:    10px;
+    margin:     0;
 }
 
-.NavBar li{
-    display: inline-block;
-    padding: 0;
+.NavBar li {
+    display:      inline-block;
+    padding:      0;
     margin-right: 50px;
 }
 
@@ -26,73 +26,97 @@ body{
     text-decoration: none;
     color:           #5bbea9;
     font-family:     Arial;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: xx-small;
-    letter-spacing: 2px;
+    text-transform:  uppercase;
+    font-weight:     900;
+    font-size:       xx-small;
+    letter-spacing:  2px;
 }
 
 a:hover {
     color: #ffffff;
 }
 
-.SiteHead{
-    color: #5bbea9;
+.SiteHead {
+    color:          #5bbea9;
     letter-spacing: 6px;
-    font-family: monospace;
-    text-align: center;
-    padding: 10px;
+    font-family:    monospace;
+    text-align:     center;
+    padding:        10px;
 }
 
-.SiteHead h1{
-    font-size: 50px;
-    margin-top: 0;
+.SiteHead h1 {
+    font-size:     50px;
+    margin-top:    0;
     margin-bottom: 0;
-    font-weight: bolder;
+    font-weight:   bolder;
 }
 
-span.eleventh{
-    font-weight: 900;
+span.eleventh {
+    font-weight:    900;
     text-transform: uppercase;
-    font-size: larger;
-
+    font-size:      larger;
 }
 
-.content{
+.content {
     margin: 10px;
 }
 
 .SiteSlide {
-    text-align: center;
+    text-align:     center;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-family: sans-serif;
-    color: #5bbea9;
+    font-family:    sans-serif;
+    color:          #5bbea9;
 }
 
-.SiteSlide img{
-    display: block;
-    margin:auto;
+.SiteSlide img {
+    display:     block;
+    margin:      auto;
     padding-top: 90px;
-    width: 960px;
-    height: 400px;
+    width:       960px;
+    height:      400px;
 }
 
-h2{
-    margin-top: -102px;
+h2 {
+    margin-top:    -102px;
     margin-bottom: 0;
-    font-weight: 800;
-    font-size: 48px;
+    font-weight:   800;
+    font-size:     48px;
 }
 
-.SiteSlide span{
+.SiteSlide span {
     font-weight: bold;
 }
 
-p{
-    width: auto;
-    margin-top: 28px;
-    margin-left: 119px;
+p {
+    width:        auto;
+    margin-top:   28px;
+    margin-left:  119px;
     margin-right: 38px;
+}
+
+.PhotoButton {
+    color:            white;
+    text-align:       center;
+    background-color: #5bbea9;
+    border:           none;
+    padding:          7px 50px;
+    text-decoration:  none;
+    text-transform:   uppercase;
+    font-family:      sans-serif;
+    font-size:        x-small;
+    font-weight:      700;
+    letter-spacing:   2px;
+    margin-left:      515px;
+}
+
+.OpenHouse {
+    text-transform: uppercase;
+    text-align:     center;
+    padding-top:    138px;
+    color:          #5bbea9;
+    font-family:    sans-serif;
+    font-weight:    900;
+    letter-spacing: 6px;
 }
 
