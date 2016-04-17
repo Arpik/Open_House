@@ -92,7 +92,8 @@ p {
     width:        auto;
     margin-top:   28px;
     margin-left:  119px;
-    margin-right: 38px;
+    margin-right: 142px;
+    text-align: center;
 }
 
 .PhotoButton {
@@ -120,3 +121,40 @@ p {
     letter-spacing: 6px;
 }
 
+form{
+    margin: auto;
+    height: 125px;
+    width: 561px;
+}
+
+.first input {
+    text-align:       center;
+    background-color: #d6d6d6;
+    width:            271px;
+    height:           34px;
+    border:           none;
+    margin:           2px;
+    color:            white;
+    font-family:      monospace;
+    text-transform:   uppercase;
+    letter-spacing:   2px;
+}
+
+.second span{
+    text-align: center;
+    text-transform: uppercase;
+    color: #5bbea9;
+    font-family: arial sans-serif;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 132px;
+    padding-right: 104px;
+
+
+}
+
+.text input{
+    height: 22px;
+    width: 549px;
+}
