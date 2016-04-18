@@ -3,6 +3,7 @@ body {
     margin:  0;
 }
 
+
 .NavBar {
     background-color: black;
     height:           45px;
@@ -32,6 +33,16 @@ body {
     letter-spacing:  2px;
 }
 
+.content {
+    margin-top: 10px;
+    text-align:     center;
+    text-transform: uppercase;
+    color:          #5bbea9;
+    font-family:    'Arial', sans-serif;
+    letter-spacing: 4px;
+
+}
+
 a:hover {
     color: #ffffff;
 }
@@ -57,11 +68,6 @@ span.eleventh {
     font-size:      larger;
 }
 
-.content {
-    margin-top: 10px;
-
-}
-
 .SiteSlide img {
     display:     block;
     margin:      auto;
@@ -70,7 +76,7 @@ span.eleventh {
     height:      400px;
 }
 
-h2 {
+.SiteSlide h2 {
     margin-top:    -102px;
     margin-bottom: 0;
     font-weight:   800;
@@ -81,14 +87,14 @@ h2 {
     font-weight: bold;
 }
 
-p {
-    margin-top:     28px;
-    margin-left:    400px;
-    margin-right:   423px;
+.content p {
+    margin:         28px 498px 31px 492px;
     color:          black;
     text-transform: none;
     font-family:    serif;
     letter-spacing: normal;
+    font-weight:    bolder;
+    font-size:      12px;
 }
 
 .PhotoButton {
@@ -102,9 +108,17 @@ p {
 }
 
 .OpenHouse {
-    padding-top:    138px;
+    padding-top: 14px;
     font-weight:    900;
+    margin-bottom: 20px;
 }
+
+.OpenHouse h2 {
+    font-weight:   900;
+    font-size:     50px;
+    margin: 0;
+}
+
 
 form {
     margin: auto;
@@ -122,14 +136,6 @@ form {
     font-family:      monospace;
     text-transform:   uppercase;
     letter-spacing:   2px;
-}
-
-.content {
-    text-align:     center;
-    text-transform: uppercase;
-    color:          #5bbea9;
-    font-family:    'Arial', sans-serif;
-    letter-spacing: 4px;
 }
 
 .second {
@@ -152,7 +158,23 @@ form {
     letter-spacing:   4px;
     border:           none;
     margin-top:       19px;
+    margin-bottom:    15px;
     text-transform:   uppercase;
     font-weight:      900;
     font-size:        11px;
+}
+
+.footertext {
+    text-align: center;
+
+}
+
+.footertext p {
+    background-color: black;
+    color: #5bbea9;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 11px 10px;
+    font-size: 10px;
+    font-family: 'Arial', sans-serif;
 }
